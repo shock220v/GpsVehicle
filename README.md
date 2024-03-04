@@ -29,7 +29,7 @@ Configure the SIM800 module and insert a valid SIM card.
 Power up the system and wait for GPS fix.
 Send SMS commands to interact with the system:
 PASSWORD: Authenticate and perform actions.
-loc: Request current location.
+location: Request current location.
 numbers: Retrieve stored phone numbers.
 delete [number]: Delete a stored phone number.
 deleteall: Delete all stored phone numbers.
