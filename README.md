@@ -1,5 +1,20 @@
 GPS Tracker with SIM800 and NEO-6M
 
+mdoules:
+Arduin nano ,Sim800 ,Gps6m2 ,TP4056
+
+PINS Wiring:
+Sim800 PIN = RX | Arduin nano PIN = 3 
+Sim800 PIN = TX | Arduin nano PIN = 4  
+Sim800 PIN VCC | TP4056 + charger module
+Sim800 PIN GND | TP4056 - charger module
+
+Gps6mv2 PIN = RX = Arduin nano PIN 9 
+Gps6m2 PIN = TX = Arduin nano PIN = 8
+Gps6m2 PIN VCC | TP4056 + charger module
+Gps6m2 PIN GND | TP4056 - charger module
+
+
 This repository contains the code for a GPS tracker system built using an Arduino, SIM800 module for GSM communication, and NEO-6M module for GPS data. The system allows tracking and sending location information via SMS messages.
 
 Features
